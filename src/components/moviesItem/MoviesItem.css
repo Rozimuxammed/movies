@@ -1,0 +1,38 @@
+.btnGroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.btnGroup .btn{
+    border: 1px solid grey;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnGroup .btn:nth-child(1){
+    color: orange;
+}
+/* .icon{
+    color: rgb(224, 224, 45);
+    font-size: 22px;
+} */
+.list-group-item-input{
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: transparent;
+    width: 100px;
+    margin-top: 20px;
+    outline: none;
+    padding: 8px;
+}
+.inputBtn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.list-group-item.favourite{
+    color: orange;
+}
